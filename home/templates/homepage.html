@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static '../../static/css/main.css'%}">
-    <title>Document</title>
+    <link rel="shortcut icon" href="{%static '../../static/assets/images/logo.svg'%}" type="image/x-icon">
+    <title>Plantia</title>
+    
 </head>
+
 <body>
-    <h1>Home works!</h1>
+
+    <div class = "navbar">
+        <div class = "navbar__logo">
+            <img src="../../static/assets/images/logo.svg" alt="">
+        </div>
+    </div>
+    
+    <div class=background>
+        <div class = "container">
+            <div class=container__center>
+                <!-- <div class = container__center__image>
+                    <img class = container__center__image__style src="../../static/assets/images/sunflower.jpg" alt="">
+                </div>
+                <div class = container__center__description>
+                    <h2>Sunflower</h2>
+                </div> -->
+                <input type="file" id = file>
+                <label for="file" class = container__center__button>Upload your image here</label>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

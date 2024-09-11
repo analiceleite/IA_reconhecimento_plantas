@@ -1,7 +1,6 @@
 {
   "name": "ia_reconhecimento_plantas",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "sass --watch static/scss/main.scss static/css/main.css",
@@ -12,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.78.0"
-  }
+  },
+  "description": ""
 }
